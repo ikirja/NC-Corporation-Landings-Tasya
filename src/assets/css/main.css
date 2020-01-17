@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,700&display=swap&subset=cyrillic');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  color: #07535E;
+  background-image: url('~@/assets/img/bg.jpg');
+}
+
+.content {
+  width: 60%;
+  margin: 60px auto 0 auto;
+}
+
+.block {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.block__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.block__item-header {
+  width: 90%;
+}
+
+.block__item-desc {
+  text-align: center;
+}
+
+.block__item-desc-link {
+  color: red;
+  cursor: pointer;
+}
+
+.block__icon {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.block__icon-desc {
+  margin: 30px 0;
+  display: block;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.block__icon-img {
+  width: 80%;
+}
+
+.block__quote {
+  margin: 30px 0;
+  display: flex;
+  align-items: center;
+}
+
+.block__quote-img {
+  width: 20%;
+  height: 20%;
+}
+
+.block__quote-desc {
+  margin-left: 50px;
+  color: #136D9E;
+  font-style: italic;
+}
+
+.block__call-to-action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.block__call-to-action-img {
+  width: 80%;
+  margin: 100px 0;
+  cursor: pointer;
+}
+
+.footer {
+  width: 100%;
+  height: 50vh;
+  max-height: 467px;
+  background-image: url('~@/assets/img/footer.png');
+}
+
+@media (max-width: 767px) {
+  .content {
+    width: 90%;
+  }
+
+  .block__item {
+    flex-direction: column;
+  }
+
+  .block__icon {
+    width: 90%;
+  }
+
+  .block__icon-desc {
+    width: 90%;
+    text-align: center;
+  }
+
+  .block__icon-img {
+    width: 80%;
+  }
+
+  .block__quote {
+    flex-direction: column;
+  }
+
+  .block__quote-img {
+    width: 50%;
+  }
+
+  .block__quote-desc {
+    margin: 0;
+  }
+}

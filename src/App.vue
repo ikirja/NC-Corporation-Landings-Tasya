@@ -1,28 +1,42 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <TheHeader />
+    <TheLogos />
+    <TheBlockOne />
+    <TheBlockTwo />
+    <TheBlockThree />
+    <TheBlockFour />
+    <TheBlockFive />
+    <TheBlockSix />
+    <TheFooter />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import TheHeader from '@/components/TheHeader.vue'
+import TheLogos from '@/components/TheLogos.vue'
+import TheBlockOne from '@/components/TheBlockOne.vue'
+import TheBlockTwo from '@/components/TheBlockTwo.vue'
+import TheBlockThree from '@/components/TheBlockThree.vue'
+import TheBlockFour from '@/components/TheBlockFour.vue'
+import TheBlockFive from '@/components/TheBlockFive.vue'
+import TheBlockSix from '@/components/TheBlockSix.vue'
+import TheFooter from '@/components/TheFooter.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    TheHeader,
+    TheLogos,
+    TheBlockOne,
+    TheBlockTwo,
+    TheBlockThree,
+    TheBlockFour,
+    TheBlockFive,
+    TheBlockSix,
+    TheFooter
   }
 }
 </script>
 
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+<style src="@/assets/css/main.css"></style>
