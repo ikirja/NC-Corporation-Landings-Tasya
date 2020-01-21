@@ -34,6 +34,7 @@ export default {
   top: 0;
   left: 0;
   background-color: rgba(255, 255, 255, .7);
+  z-index: 1000;
 }
 
 .navbar-menu {
@@ -45,6 +46,7 @@ export default {
 .navbar-menu__item {
   margin-right: 20px;
   display: inline-block;
+  font-size: 1rem;
 }
 
 .navbar-menu__item-link {

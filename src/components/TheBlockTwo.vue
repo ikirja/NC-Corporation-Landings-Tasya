@@ -1,6 +1,6 @@
 <template>
   <div class="content" id="help">
-    <div class="block">
+    <div v-in-viewport.once class="block">
       <div class="block__item">
         <img class="block__item-header" src="@/assets/img/2_page_Family.png" />
       </div>

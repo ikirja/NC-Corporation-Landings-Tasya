@@ -1,4 +1,4 @@
-# project-tasya
+# NC Corporation Landings Tasya
 
 ## Project setup
 ```

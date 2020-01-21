@@ -1,19 +1,19 @@
 <template>
   <div class="content" id="about">
-    <div class="block">
+    <div v-in-viewport.once class="block">
       <div class="block__item">
         <img class="block__item-header" src="@/assets/img/3_page_header.png" />
       </div>
       <div class="block__item">
-        <div class="block__icon">
+        <div v-in-viewport.once class="block__icon block__icon-1">
           <span class="block__icon-desc">Не оставит друга в беде</span>
           <img class="block__icon-img" src="@/assets/img/3_page_pic_1.png" />
         </div>
-        <div class="block__icon">
+        <div v-in-viewport.once class="block__icon block__icon-2">
           <span class="block__icon-desc">Умеет за себя постоять</span>
           <img class="block__icon-img" src="@/assets/img/3_page_pic_2.png" />
         </div>
-        <div class="block__icon">
+        <div v-in-viewport.once class="block__icon block__icon-3">
           <span class="block__icon-desc">Всегда придет на помощь</span>
           <img class="block__icon-img" src="@/assets/img/3_page_pic_3.png" />
         </div>
